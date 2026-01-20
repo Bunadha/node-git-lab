@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-app.get('/login', (req, res) => {
+app.post('/login', (req, res) => {
     res.send('Hello Git Workshop!');
 });
 
