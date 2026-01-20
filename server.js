@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 
-app.post('/login', (req, res) => {
-    res.send('Hello Git Workshop!');
+app.get('/product', (req, res) => {
+    res.send('Product List!');
 });
 
 app.listen(3000, () => console.log('Run!'));
